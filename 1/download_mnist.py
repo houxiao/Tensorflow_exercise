@@ -4,7 +4,7 @@ import scipy.misc
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 
-# print(mnist.train.images.shape)  # (55000, 784)
+print(mnist.train.images.shape)  # (55000, 784)
 # print(mnist.train.labels.shape)  # (55000, 10)
 #
 # print(mnist.validation.images.shape)  # (5000, 784)
