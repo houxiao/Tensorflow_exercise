@@ -49,3 +49,4 @@ accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 # 最重模型准确率
 print(sess.run(accuracy, feed_dict={x: mnist.test.images, y_: mnist.test.labels}))
 
+# .9161
